@@ -58,6 +58,7 @@ li button{
     height: 100vh;
     border-bottom-right-radius: 12em;
     border-bottom-left-radius: 12em;
+
 }
 .landing{
     align-items: center;
@@ -68,4 +69,121 @@ li button{
 }.landing p a{
     text-decoration: none;
     color: wheat;
+}
+    h3,h1,p{
+    color: white;
+ }.pag h3,h1,p{
+    margin: 1rem;
+ }.pag img{
+    padding-left: 10rem;
+    margin-top: 0;
+ }#username{
+    
+    border: none;
+    border-end-end-radius: none;
+    outline: none;
+ }
+ .pag input{
+    padding: 10px 80px;
+    border: none;
+    border-radius: 40px;    
+    border: none;
+    padding-left: 2rem;
+ }.pag button{
+    background-color: rgb(249, 112, 66);
+    margin-inline-start: -100px;
+    border-radius: 40rem;
+    padding: 11px;
+    border: none;
+    cursor: pointer;
+    margin-top: 3rem;
+    
+ }.pag button:hover{
+    background-color: dodgerblue;
+    border: none;
+ }.land1{
+
+    display: flex;
+    padding-left: 4rem;
+    
+ }.land1 img{
+    width: 390px;
+ }.pic{
+    
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    padding: 20px;
+ }.pic1{
+   background-color: rgba(251, 251, 237, 0.975);
+   align-content: center;
+   padding: 2rem;
+   border-radius: 30px;
+   gap: 30rem;
+   box-shadow: 30px;
+ }.pic1 img{
+    background-color: dodgerblue;
+    text-align: center;
+
+ }.pic1 img{
+    border-radius: 30px;
+    padding: 20px;
+ 
+}.pic1 h4{
+    margin-top: 1rem;
+}.pic1 img:hover{
+    background-color: rgb(236, 129, 8);
+    cursor: pointer;
+}.sasa{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}.sasa button{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(208, 49, 41);
+    padding: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}.sasa button:hover{
+    background-color: dodgerblue;
+}.sasa h2{
+    font-size: 18px;
+    color: chocolate;
+}.sasa p{
+
+    color: black;
+    font-size: 40px;
+    font-weight: bolder ;
+}.tr{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 2rem;
+    
+    
+}.tr img{
+  
+    width: 250px;
+}
+.tr h4{
+  
+    color: rgb(214, 121, 121);
+}.tr img:hover{
+background-color: brown;
+cursor: pointer;
+}.tr h2:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}.t1:hover{
+    color: dodgerblue;
+    
+}.t1{
+    background-color: rgb(230, 230, 209);
+    border-radius: 20px;
+}.second{
+    padding: 50px;
+    gap: 2rem;
 }
