@@ -1,18 +1,71 @@
 *{
     margin: 0;
     padding: 0;
-}.page1{
-    background-color: blue;
+}
+body{
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.page1{
+    background-color: rgba(0, 132, 255, 0.778);
     display: flex;
-}.navs{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+   
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    position: sticky;
+    
+
+}.logo{
+    cursor: pointer;
+}
+.navs{
     color: aliceblue;
     display: flex;
-    text-decoration: none;
+     gap: 2em;
     list-style: none;
-    justify-content: flex-end;
-}.navs li a{
+    align-items: center;
+    
+    margin-right: 2em;
+}.navs  a{
    list-style: none;
    text-decoration: none;
    text-align: center;
    color: aliceblue;
+   padding: 10px;
+}
+.navs a:hover{
+    background-color: rgb(32, 115, 239);
+    border-radius: 80px;
+    border-left-width: 20px;
+}
+
+li button{
+    border: none;
+    background-color: rgb(249, 54, 6);
+    padding: 10px;
+    border-radius: 80px;
+    cursor: pointer;
+}.land{
+    
+    background-image: url('./images/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border-bottom-right-radius: 12em;
+    border-bottom-left-radius: 12em;
+}
+.landing{
+    align-items: center;
+    text-align: center;
+    margin: 20rem;
+    
+    
+}.landing p a{
+    text-decoration: none;
+    color: wheat;
 }
