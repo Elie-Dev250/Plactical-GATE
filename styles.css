@@ -1,288 +1,346 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; 
 }
-body{
+
+body {
     padding: 10px;
     font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding-top: 5em;
 }
-.page1{
+
+.page1 {
     background-color: dodgerblue;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1em 13.5em;
-   
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     border-bottom-right-radius: 2em;
     border-bottom-left-radius: 2em;
-    position: fixed;
-    
+    z-index: 1000;
+    overflow: hidden;
+}
 
-}.logo{
+.logo {
     cursor: pointer;
 }
-.navs{
+
+.navs {
     color: aliceblue;
     display: flex;
-     gap: 2em;
+    gap: 2em;
     list-style: none;
     align-items: center;
-    
-    margin-right: 2em;
-}.navs  a{
-   list-style: none;
-   text-decoration: none;
-   text-align: center;
-   color: aliceblue;
-   padding: 10px;
-}
-.navs a:hover{
-    background-color: rgb(32, 115, 239);
-    border-radius: 80px;
-    border-left-width: 20px;
 }
 
-li button{
+.navs a {
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.navs a:hover {
+    background-color: rgb(32, 115, 239);
+    border-radius: 80px;
+}
+
+li button {
     border: none;
     background-color: rgb(245, 122, 65);
     padding: 10px;
     border-radius: 80px;
     cursor: pointer;
-}.land{
-    
+}
+
+.land {
     background-image: url('./images/banner.jpeg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     border-bottom-right-radius: 12em;
     border-bottom-left-radius: 12em;
-
 }
-.landing{
+
+.landing {
     align-items: center;
     text-align: center;
     margin: 20rem;
-    
-    
-}.landing p a{
+}
+
+.landing p a {
     text-decoration: none;
     color: wheat;
 }
-    /* h3,h1,p{
-    color: white;
- } */
- .pag h3,h1,p{
+
+.pag h3, .pag h1, .pag p {
     margin: 1rem;
- }.pag img{
+}
+
+.pag img {
     padding-left: 10rem;
     margin-top: 0;
- }#username{
-    
+}
+
+#username {
     border: none;
-    border-end-end-radius: none;
     outline: none;
- }
- .pag input{
+}
+
+.pag input {
     padding: 10px 80px;
-    border: none;
-    border-radius: 40px;    
-    border: none;
+    border-radius: 40px;
     padding-left: 2rem;
- }.pag button{
+}
+
+.pag button {
     background-color: rgb(249, 112, 66);
     margin-inline-start: -100px;
     border-radius: 40rem;
     padding: 11px;
-    border: none;
     cursor: pointer;
     margin-top: 3rem;
-    
- }.pag img{
+    border: none;
+}
+
+.pag img {
     margin-top: 7rem;
- }
- .pag{
-    margin-top: 5cm;
- }
- .pag button:hover{
+}
+
+.pag button:hover {
     background-color: dodgerblue;
     border: none;
- }.land1{
+}
 
+.land1 {
     display: flex;
     padding-left: 4rem;
-    
- }.land1 img{
+}
+
+.land1 img {
     width: 390px;
- }.pic{
-    
-    /* display: flex; */
+}
+
+.pic {
     display: grid;
-   grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     justify-content: center;
     padding: 20px;
- }.pic1{
-   background-color: rgba(251, 251, 237, 0.975);
-   
-   align-content: center;
-   padding: 2rem;
-   border-radius: 30px;
- 
-   gap: 1rem;
-   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-top: 3cm;
+    
+}
 
-   
+.pic1 {
 
+    background-color: rgba(251, 251, 237, 0.975);
+    padding: 2rem;
+    border-radius: 30px;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
 
-   
- }.pic1 img{
+.pic1 img {
     background-color: dodgerblue;
     text-align: center;
-
- }.pic1 img{
     border-radius: 30px;
     padding: 20px;
- 
-}.pic1 h4{
+}
+
+.pic1 h4 {
     margin-top: 1rem;
-}.pic1 img:hover{
+}
+
+.pic1 img:hover {
     background-color: rgb(236, 129, 8);
     cursor: pointer;
-}.sasa{
-    
+}
+
+.sasa {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}.sasa button{
+}
+
+.sasa button {
     border: none;
     border-radius: 30px;
     background-color: rgb(245, 122, 65);
     padding: 20px;
     color: aliceblue;
     cursor: pointer;
-}.sasa button:hover{
+}
+
+.sasa button:hover {
     background-color: dodgerblue;
-}.sasa h2{
+}
+
+.sasa h2 {
     font-size: 18px;
     color: chocolate;
-}.sasa p{
+}
 
+.sasa p {
     color: black;
     font-size: 40px;
-    font-weight: bolder ;
-}.tr{
+    font-weight: bolder;
+}
+
+.tr {
     display: flex;
     justify-content: center;
     padding: 50px;
     gap: 2rem;
-    
-    
-}.tr img{
-  
+}
+
+.tr img {
     width: 250px;
 }
-.tr h4{
-  
+
+.tr h4 {
     color: rgb(214, 121, 121);
-}.tr img:hover{
+}
+
+.tr img:hover {
     background-color: rgb(245, 122, 65);
-cursor: pointer;
-}.tr h2:hover{
+    cursor: pointer;
+}
+
+.tr h2:hover {
     color: dodgerblue;
     cursor: pointer;
-}.t1:hover{
+}
+
+.t1:hover {
     color: dodgerblue;
-    
-}.t1{
+}
+
+.t1 {
     background-color: rgb(230, 230, 209);
     border-radius: 20px;
-}.second{
+}
+
+.second {
     padding: 50px;
     gap: 2rem;
-}.hha{
+    margin-top: 3cm;
+}
+
+.hha {
     display: flex;
     justify-content: space-between;
-}.most2{
+}
+
+.most2 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-}.most2 button{
+}
+
+.most2 button {
     border: none;
     border-radius: 20px;
     background-color: rgb(245, 122, 65);
     padding: 12px;
     color: aliceblue;
     cursor: pointer;
-
-}.most2 button:hover{
-    background-color:  dodgerblue; 
 }
-.d1{
+
+.most2 button:hover {
+    background-color: dodgerblue;
+}
+
+.d1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.d1 h2:hover{
+
+.d1 h2:hover {
     color: dodgerblue;
-}.d1:hover{
-color: dodgerblue;
-cursor: pointer;
-}.d1 h4{
-    font-size: 16   px;
+}
+
+.d1:hover {
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.d1 h4 {
+    font-size: 16px;
     opacity: 0.5;
     color: rgb(23, 18, 13);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}.hha{
-   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hha {
     padding: 20px;
-    font-size: 30px ;
-    font-family: Georgia, ;
-}.hha button{
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+
+.hha button {
     border: none;
     border-radius: 20px;
     background-color: rgb(245, 122, 65);
     padding: 12px;
     color: aliceblue;
     cursor: pointer;
+}
 
-}.hha button:hover{
-    background-color:  dodgerblue; 
-    cursor: pointer;
-}.most{
+.hha button:hover {
+    background-color: dodgerblue;
+}
+
+.most {
     background-color: rgb(248, 247, 246);
     border-radius: 90px;
     padding: 20px;
     margin-left: 2rem;
-}.most img{
+}
+
+.most img {
     border-radius: 30px;
-}.most h2{
+}
+
+.most h2 {
     font-size: 20px;
     font-weight: normal;
-}.cat1{
+}
+
+.cat1 {
     text-align: center;
-}.hello{
+}
+
+.hello {
     display: flex;
     padding: 20px;
     gap: 1rem;
-}.cat2{
+}
+
+.cat2 {
     background-color: dodgerblue;
     border-radius: 25px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     padding: 0;
     margin: 0;
-    
-    
-}.cat2 img{
+}
+
+.cat2 img {
     border-radius: 25px;
     transform: translateY(20px);
+}
 
-}.cat2 h2{
+.cat2 h2 {
     text-align: center;
     padding: 10px 5px;
 }
