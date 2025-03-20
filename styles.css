@@ -67,6 +67,8 @@ li button {
     height: 100vh;
     border-bottom-right-radius: 12em;
     border-bottom-left-radius: 12em;
+    padding: 40px;
+    color: white;
 }
 
 .landing {
@@ -86,7 +88,7 @@ li button {
 
 .pag img {
     padding-left: 10rem;
-    margin-top: 0;
+    margin-top: 1cm;
 }
 
 #username {
@@ -112,6 +114,7 @@ li button {
 
 .pag img {
     margin-top: 7rem;
+    
 }
 
 .pag button:hover {
@@ -122,6 +125,7 @@ li button {
 .land1 {
     display: flex;
     padding-left: 4rem;
+    
 }
 
 .land1 img {
