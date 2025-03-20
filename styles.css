@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 body {
@@ -82,7 +82,9 @@ li button {
     color: wheat;
 }
 
-.pag h3, .pag h1, .pag p {
+.pag h3,
+.pag h1,
+.pag p {
     margin: 1rem;
 }
 
@@ -114,7 +116,7 @@ li button {
 
 .pag img {
     margin-top: 7rem;
-    
+
 }
 
 .pag button:hover {
@@ -125,7 +127,7 @@ li button {
 .land1 {
     display: flex;
     padding-left: 4rem;
-    
+
 }
 
 .land1 img {
@@ -139,7 +141,7 @@ li button {
     justify-content: center;
     padding: 20px;
     margin-top: 3cm;
-    
+
 }
 
 .pic1 {
