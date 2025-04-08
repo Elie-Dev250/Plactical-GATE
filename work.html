@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FORM</title>
+  <title>Styled Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <form id="form">
-    <label>Name:</label>
-    <input type="text" name="name" required><br><br>
+    <label for="name">Name:</label>
+    <input type="text" name="name" >
 
-    <label>Email:</label>
-    <input type="text" name="email" required><br><br>
+    <label for="email">Email:</label>
+    <input type="text" name="email" >
 
-    <label>Message:</label>
-    <input type="text" name="message" required><br><br>
+    <label for="message">Message:</label>
+    <input type="text" name="message" >
 
     <button type="submit">Submit</button>
   </form>
 
   <script>
-    document.getElementById('myForm').addEventListener('submit', (event)=> {
-    
-      const inputs = this.querySelectorAll('input[type="text"][required]');
+    const form = document.getElementById('form');
+
+    form.addEventListener('submit', (event) => {
+      const inputs = form.querySelectorAll('input[type="text"]');
       
       for (let a = 0; a < inputs.length; a++) {
         if (inputs[a].value.trim() === '') {
           alert(`Please fill in the ${inputs[a].name} field.`);
-           
-          event.preventDefault(); 
+          inputs[a].focus(); 
+          event.preventDefault();
           return;
         }
       }
-
     });
   </script>
 
