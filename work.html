@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FORM</title>
+</head>
+<body>
+
+  <form id="form">
+    <label>Name:</label>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label>
+    <input type="text" name="email" required><br><br>
+
+    <label>Message:</label>
+    <input type="text" name="message" required><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    document.getElementById('myForm').addEventListener('submit', (event)=> {
+    
+      const inputs = this.querySelectorAll('input[type="text"][required]');
+      
+      for (let a = 0; a < inputs.length; a++) {
+        if (inputs[a].value.trim() === '') {
+          alert(`Please fill in the ${inputs[a].name} field.`);
+           
+          event.preventDefault(); 
+          return;
+        }
+      }
+
+    });
+  </script>
+
+</body>
+</html>
